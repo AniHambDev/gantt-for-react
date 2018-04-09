@@ -1,4 +1,4 @@
-# gantt-for-react
+# gantt-for-react-hourly
 
 > [Frappe Gantt](https://github.com/frappe/gantt) components for React wrapper.
 
@@ -42,11 +42,11 @@ The tasks array need to be show with gantt graph. task is an object with format:
 
  - **`viewMode`** (required, string)
 
-The view mode of gantt. Can be **Quarter Day, Half Day, Day, Week, Month**. 
+The view mode of gantt. Can be **Minute, Hour, Quarter Day, Half Day, Day, Week, Month**. 
 
  - **`scrollOffsets`** (optional, object)
 
-The default scroll offset for different view modes with object format: **{ viewMode : integer }**. ViewMode can be **Quarter Day, Half Day, Day, Week, Month**. 
+The default scroll offset for different view modes with object format: **{ viewMode : integer }**. ViewMode can be **Minute, Hour, Quarter Day, Half Day, Day, Week, Month**. 
 
  - **`customPopupHtml`** (optional, func)
 
